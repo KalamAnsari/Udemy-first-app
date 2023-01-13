@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy</title>
+    <style>
+      
+        .container {
+            background-color: red;
+            width: 100vw;
+            height: 100vh;
+
+            border: 4px solid blue;
+            /* scroll-behavior: none; */
+            overflow: hidden;
+        }
+
+        .card1 {
+
+            width: 100vw;
+            height: 50vh;
+            color:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .card2 {
+
+            width: 100vw;
+            height: 50vh;
+            background-color: green;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+       
+            
+        }
+     
+        .card2 .buttom {
+
+         color: white;
+         display: flex;
+         justify-content:flex-end;
+     
+        }
+        .buttom h4{
+            position: absolute;
+            bottom: -48px;
+            
+            left:16px;
+        }
+        .buttom h3{
+            position: absolute;
+            bottom: -48px;
+            
+            
+            right:6px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card1">
+            <h5>HELLO WORLD </h5>
+        </div>
+        <div class="card2">
+            <h5>KALAM</h5>
+            <div class="buttom">
+                <h4>LEFT</h4>
+                <h3>RIGHT</h3>
+
+            </div>
+
+        </div>
+    </div>
+    <button id="btn">delete</button>
+    <script src="set.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.new-expense-controls{
+    background-color: rgb(35, 35, 129);
+    width: 50%;
+    margin: auto;
+    color: wheat;
+    border-radius: 10px;
+}
+
+.new-expense-controls input{
+    
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.new-expense-action button{
+    background-color: rgb(65, 4, 122);
+    margin-bottom: 20px;
+    color: wheat;
+    margin-left: 20px;
+}
